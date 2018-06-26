@@ -58,6 +58,7 @@ body {
     padding: 20px;
     position: relative;
     display: inline-flex;
+    font-family: montserrat,sans-serif;
   }
 }
 
@@ -184,6 +185,10 @@ h3 {
   border-style: hidden hidden solid hidden;
   border-width: thin;
   background: firebrick; 
+}
+
+.nav-link-button:hover {
+  color: white !important;
 }
 
 .footer {
