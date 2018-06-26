@@ -187,8 +187,12 @@ h3 {
   background: firebrick; 
 }
 
-.nav-link-button:hover {
+.nav-link-button {
   color: white !important;
+}
+
+.nav-link-button:hover {
+  color: orange !important;
 }
 
 .footer {

@@ -50,7 +50,6 @@ class Navbar extends React.Component {
             </div>
           </div>
         </div>
-        <img class="forge-nav-logo" src={iconImg} />
         <div class="navbar-collapse collapse dual-nav col-4 col-md-5">
           <div class="navbar-brand nav navbar-nav ml-auto">
             <a class="navbar-brand nav-link-button" href="https://npmjs.com/package/the_forge"><i class="fab fa-npm fa-2x" /></a>
