@@ -18,7 +18,7 @@ const Team = props => (
         <PWA
           img={chris}
           name="Christopher Washburn"
-          description="-&quot;Passionate about React/Redux&quot;"
+          // description="-&quot;Passionate about React/Redux&quot;"
           bkground="background"
           linked="https://www.linkedin.com/in/christopherwashburn/"
           github="https://github.com/SKChristopher"
@@ -29,7 +29,7 @@ const Team = props => (
         <PWA
           img={kyle}
           name="Kyle Loftin"
-          description="-&quot;Love all things tech!&quot;"
+          // description="-&quot;Love all things tech!&quot;"
           bkground="ready to take on new tech"
           linked="https://www.linkedin.com/in/kyle-loftin-62566639/"
           github="https://github.com/KALoftin"
@@ -40,7 +40,7 @@ const Team = props => (
         <PWA
           img={tiff}
           name="Tiffany Yang"
-          description="-&quot;Have fun with problem solving&quot;"
+          // description="-&quot;Have fun with problem solving&quot;"
           bkground="background"
           linked="https://www.linkedin.com/in/tiffany-yang-09b82937/"
           github="https://github.com/tyang1"
@@ -51,7 +51,7 @@ const Team = props => (
         <PWA
           img={jeff}
           name="Jeffrey Kang"
-          description="-&quot;Enjoys fullstack!&quot;"
+          // description="-&quot;Enjoys fullstack!&quot;"
           bkground="background"
           linked="https://www.linkedin.com/in/jeff-r-kang/"
           github="https://github.com/jkang215"
