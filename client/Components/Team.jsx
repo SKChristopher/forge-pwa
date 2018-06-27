@@ -50,7 +50,7 @@ const Team = props => (
       <div className="column">
         <PWA
           img={jeff}
-          name="Jeffrey Kang"
+          name="Jeff Kang"
           // description="-&quot;Enjoys fullstack!&quot;"
           bkground="background"
           linked="https://www.linkedin.com/in/jeff-r-kang/"
