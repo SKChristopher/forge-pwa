@@ -44,9 +44,9 @@ class Navbar extends React.Component {
             <span class="navbar-toggler-icon"></span>
             </button>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <a class="dropdown-item" href="#page-1">Features</a>
-              <a class="dropdown-item" href="#page-2">Installation And Usage</a>
-              <a class="dropdown-item" href="#page-3">The Forge Team</a>
+              <a class="dropdown-item dropdown-text" href="#page-1">Features</a>
+              <a class="dropdown-item dropdown-text" href="#page-2">Installation And Usage</a>
+              <a class="dropdown-item dropdown-text" href="#page-3">The Forge Team</a>
             </div>
           </div>
         </div>
