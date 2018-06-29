@@ -58,6 +58,7 @@ body {
     padding: 20px;
     position: relative;
     display: inline-flex;
+    font-family: montserrat,sans-serif;
   }
 }
 
@@ -107,6 +108,7 @@ h3 {
 
 .half-image {
   width: 100%;
+  margin-bottom: 20px;
 }
 
 .info:hover .image {
@@ -183,6 +185,22 @@ h3 {
   border-style: hidden hidden solid hidden;
   border-width: thin;
   background: firebrick; 
+}
+
+.nav-link-button {
+  color: white !important;
+}
+
+.nav-link-button:hover {
+  color: orange !important;
+}
+
+.dropdown-text {
+  color: white !important;
+}
+
+.dropdown-text:hover {
+  color: black !important;
 }
 
 .footer {

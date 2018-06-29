@@ -5,7 +5,10 @@ import iconImg from '../static/forge-icon.png';
 const Logo = () => (
   <div className="container-fluid banner logo-container">
     <div className="row align-items-center">
-      <div className="col-md-6">
+      <div className="col-6 mx-auto col-md-6 order-md-2">
+        <img className="icon-img" src={iconImg} alt="the Forge icon" />
+      </div>
+      <div className="col-md-6 order-md-1">
         <h1 className="forge-header">the Forge</h1>
         <h4><em>Where code is smithed.</em><br /></h4>
         <h5>The Forge is a command line interface tool for generating and hosting Progressive Web Apps.</h5>
@@ -17,9 +20,6 @@ const Logo = () => (
         <div className="github-button-group">
           <iframe src="https://ghbtns.com/github-btn.html?user=forgepwa&repo=the_forge&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
         </div>
-      </div>
-      <div className="col-md-6">
-        <img className="icon-img" src={iconImg} alt="the Forge icon" />
       </div>
     </div>
   </div>

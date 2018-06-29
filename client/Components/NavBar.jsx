@@ -44,17 +44,16 @@ class Navbar extends React.Component {
             <span class="navbar-toggler-icon"></span>
             </button>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <a class="dropdown-item" href="#page-1">Features</a>
-              <a class="dropdown-item" href="#page-2">Installation And Usage</a>
-              <a class="dropdown-item" href="#page-3">The Forge Team</a>
+              <a class="dropdown-item dropdown-text" href="#page-1">Features</a>
+              <a class="dropdown-item dropdown-text" href="#page-2">Installation And Usage</a>
+              <a class="dropdown-item dropdown-text" href="#page-3">The Forge Team</a>
             </div>
           </div>
         </div>
-        <img class="forge-nav-logo" src={iconImg} />
-        <div class="navbar-collapse collapse dual-nav col-4 col-md-5">
-          <div class="navbar-brand nav navbar-nav ml-auto">
-            <a class="navbar-brand" href="https://npmjs.com/package/the_forge"><i class="fab fa-npm fa-2x" /></a>
-            <a class="navbar-brand" href="https://github.com/ProgrammersWitAttitudes/pwa_creator/stargazers"><i class="fab fa-github fa-2x" /></a>
+        <div class="navbar dual-nav col-4 col-md-5">
+          <div class="navbar-brand nav ml-auto">
+            <a class="navbar-brand nav-link-button" href="https://npmjs.com/package/the_forge"><i class="fab fa-npm fa-2x" /></a>
+            <a class="navbar-brand nav-link-button" href="https://github.com/ProgrammersWitAttitudes/pwa_creator/stargazers"><i class="fab fa-github fa-2x" /></a>
           </div>
         </div>
       </nav>
