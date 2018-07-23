@@ -15,7 +15,7 @@ const Installation = () => (
         <p>Install the Forge with npm:</p>
         <div className="highlight shell">
           <pre className="editor editor-colors">
-            <span className="source shell">npm install forge -g</span>
+            <span className="source shell">npm install the_forge -g</span>
           </pre>
         </div>
       </div>
